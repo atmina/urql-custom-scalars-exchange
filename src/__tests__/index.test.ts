@@ -168,14 +168,17 @@ const nestedFragment = {
   query: gql`
     query {
       listNested {
-        ...nested
+        ...nested1
       }
     }
-    fragment nested on Nested {
+    fragment nested1 on Nested {
       name
       deeplyNested {
-        ...nested
+        ...nested2
       }
+    }
+    fragment nested2 on Nested {
+      name
     }
   `,
   data: {
