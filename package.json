@@ -33,7 +33,7 @@
     "singleQuote": true,
     "trailingComma": "es5"
   },
-  "name": "urql-custom-scalars-exchange",
+  "name": "@atmina/urql-custom-scalars-exchange",
   "author": "Christian Lentfort",
   "module": "dist/urql-custom-scalars-exchange.esm.js",
   "devDependencies": {

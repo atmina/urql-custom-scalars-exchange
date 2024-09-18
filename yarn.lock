@@ -27,6 +27,25 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@atmina/urql-custom-scalars-exchange@workspace:.":
+  version: 0.0.0-use.local
+  resolution: "@atmina/urql-custom-scalars-exchange@workspace:."
+  dependencies:
+    "@urql/core": "npm:^4.0.0"
+    graphql: "npm:^16.0.0"
+    graphql-tag: "npm:^2.12.6"
+    husky: "npm:^4.2.5"
+    tsdx: "npm:^0.14.1"
+    tslib: "npm:^2.4.0"
+    typescript: "npm:^4.7.4"
+    wonka: "npm:^6.0.0"
+  peerDependencies:
+    "@urql/core": ^1.12.3 || ^2.0.0 || ^3.0.0 || ^4.0.0
+    graphql: ^15.3.0 || ^16.0.0
+    wonka: ^4.0.14 || ^6.0.0
+  languageName: unknown
+  linkType: soft
+
 "@babel/code-frame@npm:^7.0.0, @babel/code-frame@npm:^7.18.6, @babel/code-frame@npm:^7.5.5":
   version: 7.18.6
   resolution: "@babel/code-frame@npm:7.18.6"
@@ -9082,25 +9101,6 @@ __metadata:
   checksum: 10c0/264f1b29360c33c0aec5fb9819d7e28f15d1a3b83175d2bcc9131efe8583f459f07364957ae3527f1478659ec5b2d0f1ad401dfb625f73e4d424b3ae35fc5fc0
   languageName: node
   linkType: hard
-
-"urql-custom-scalars-exchange@workspace:.":
-  version: 0.0.0-use.local
-  resolution: "urql-custom-scalars-exchange@workspace:."
-  dependencies:
-    "@urql/core": "npm:^4.0.0"
-    graphql: "npm:^16.0.0"
-    graphql-tag: "npm:^2.12.6"
-    husky: "npm:^4.2.5"
-    tsdx: "npm:^0.14.1"
-    tslib: "npm:^2.4.0"
-    typescript: "npm:^4.7.4"
-    wonka: "npm:^6.0.0"
-  peerDependencies:
-    "@urql/core": ^1.12.3 || ^2.0.0 || ^3.0.0 || ^4.0.0
-    graphql: ^15.3.0 || ^16.0.0
-    wonka: ^4.0.14 || ^6.0.0
-  languageName: unknown
-  linkType: soft
 
 "use@npm:^3.1.0":
   version: 3.1.1
