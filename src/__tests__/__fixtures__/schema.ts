@@ -9,13 +9,16 @@ const schema = buildSchema(/* GraphQL */ `
   type Query {
     simple: String!
     nested: Nested!
+    nestedNullable: Nested
     list: [String!]!
     listNested: [Nested!]!
+    listNestedNullable: [Nested!]
     listNestedList: [[Nested!]!]!
   }
 
   type Nested {
     name: String!
+    deeplyNested: Nested
   }
 `);
 
