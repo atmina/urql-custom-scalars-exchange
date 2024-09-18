@@ -1,17 +1,17 @@
-# urql-custom-scalars-exchange
+# @atmina/urql-custom-scalars-exchange
 
 urql exchange to allow mapping of custom scalar types
 
 ## Example
 
 ```sh
-yarn add urql-custom-scalars-exchange
+yarn add @atmina/urql-custom-scalars-exchange
 ```
 
 or
 
 ```
-npm install --save urql-custom-scalars-exchange
+npm install --save @atmina/urql-custom-scalars-exchange
 ```
 
 Define a custom scalar like `Json` in your schema via:
@@ -25,7 +25,7 @@ Download the introspection query from your endpoint. See the [urql docs](https:/
 Configure the exchange like so
 
 ```js
-import customScalarsExchange from 'urql-custom-scalars-exchange';
+import customScalarsExchange from '@atmina/urql-custom-scalars-exchange';
 import schema from '../schema.json';
 
 const scalarsExchange = customScalarsExchange({
@@ -79,3 +79,5 @@ related to files changed since the last commit.
 ## Acknowledgements
 
 This project was bootstrapped with [TSDX](https://github.com/jaredpalmer/tsdx).
+
+This project is a fork of [Christian Lentfort's exchange](https://github.com/clentfort/urql-custom-scalars-exchange).
