@@ -75,7 +75,11 @@ function getPathAndFragmentName(
   return [path, fragmentName];
 }
 
-function mapScalar(data: any, path: PropertyKey[], mapping: ScalarMapping): any {
+function mapScalar(
+  data: any,
+  path: PropertyKey[],
+  mapping: ScalarMapping
+): any {
   if (data == null) {
     return data;
   }
