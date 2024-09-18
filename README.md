@@ -56,6 +56,8 @@ should represent the the data as returned by the endpoint.
 
 ## Local Development
 
+This project uses [Corepack](https://nodejs.org/api/corepack.html). Run `corepack enable` to enable it if you haven't already.
+
 Below is a list of commands you will probably find useful.
 
 ### `npm start` or `yarn start`
