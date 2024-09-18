@@ -150,11 +150,26 @@ const repeatedFragment = {
   calls: 2,
 };
 
+const listNestedList = {
+  query: gql`
+    {
+      listNestedList {
+        name
+      }
+    }
+  `,
+  data: {
+    listNestedList: [[nestedData], [nestedData]],
+  },
+  calls: 2,
+};
+
 test.each([
   fragment1,
   fragment2,
   list,
   listNested,
+  listNestedList,
   listNestedNullable,
   nested,
   nestedNullable,

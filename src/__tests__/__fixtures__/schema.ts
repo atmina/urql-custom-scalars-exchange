@@ -11,6 +11,7 @@ const schema = buildSchema(/* GraphQL */ `
     nested: Nested!
     list: [String!]!
     listNested: [Nested!]!
+    listNestedList: [[Nested!]!]!
   }
 
   type Nested {
