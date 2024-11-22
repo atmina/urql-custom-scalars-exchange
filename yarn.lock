@@ -5,15 +5,15 @@ __metadata:
   version: 8
   cacheKey: 10c0
 
-"@0no-co/graphql.web@npm:^1.0.1":
-  version: 1.0.4
-  resolution: "@0no-co/graphql.web@npm:1.0.4"
+"@0no-co/graphql.web@npm:^1.0.5":
+  version: 1.0.11
+  resolution: "@0no-co/graphql.web@npm:1.0.11"
   peerDependencies:
     graphql: ^14.0.0 || ^15.0.0 || ^16.0.0
   peerDependenciesMeta:
     graphql:
       optional: true
-  checksum: 10c0/bf63cb5b017063363c9a9e06dc17532abc1c2da402c7ebcbc7b5ab2a0601ec93b02de93af9e50d9daffb3b747eddcf0b1e5418a46d1182c5b8087b7d7a1768ad
+  checksum: 10c0/7ef7e86a750d3df666830705dac7c984bc7f9604a42c43840586931bb7d6c14499595beb6b8bdcfac56b7847f921ddd08f2e0c39b55acff49ec847d278a8a768
   languageName: node
   linkType: hard
 
@@ -31,7 +31,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "@atmina/urql-custom-scalars-exchange@workspace:."
   dependencies:
-    "@urql/core": "npm:^4.0.0"
+    "@urql/core": "npm:^5.0.0"
     graphql: "npm:^16.0.0"
     graphql-tag: "npm:^2.12.6"
     husky: "npm:^4.2.5"
@@ -40,7 +40,7 @@ __metadata:
     typescript: "npm:^4.7.4"
     wonka: "npm:^6.0.0"
   peerDependencies:
-    "@urql/core": ^1.12.3 || ^2.0.0 || ^3.0.0 || ^4.0.0
+    "@urql/core": ^1.12.3 || ^2.0.0 || ^3.0.0 || ^4.0.0 || ^5.0.0
     graphql: ^15.3.0 || ^16.0.0
     wonka: ^4.0.14 || ^6.0.0
   languageName: unknown
@@ -2098,13 +2098,13 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@urql/core@npm:^4.0.0":
-  version: 4.1.1
-  resolution: "@urql/core@npm:4.1.1"
+"@urql/core@npm:^5.0.0":
+  version: 5.0.8
+  resolution: "@urql/core@npm:5.0.8"
   dependencies:
-    "@0no-co/graphql.web": "npm:^1.0.1"
+    "@0no-co/graphql.web": "npm:^1.0.5"
     wonka: "npm:^6.3.2"
-  checksum: 10c0/1f2077a0ce6cc7e34f03107f6e51f7b4ae77a9ef8f81ac37a81d61828b8ec4fa7b937eb315ead84108164ecd01e442b21f8ad3701fb8df881fa1c63cba114e68
+  checksum: 10c0/a17c5ca0e2f02657e57bfc0b567dc6075f27e6604a27baf65d26df9c01007ff6f552b496c33fd9b3eb121485d8b82029a2d860fd82c156dfed52abbb341c78ed
   languageName: node
   linkType: hard
 
